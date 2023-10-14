@@ -13,10 +13,11 @@ body {
 /* Media queries to make the design responsive */
 @media (max-width: 600px) {
     #container {
-        max-width: 90%;
+        max-width: 90%
     }
     .measure-box {
-        max-width: 90%;
+        max-width: 90%
+        padding: 10px 20px
     }
 }
 
@@ -88,7 +89,8 @@ input[type=number]:focus {
     margin: 12px 0;
     border-radius: 5px;
     padding: 15px 30px;
-    width: 500px;
+    max-width: 90%;
+    width: 100%; /* takes the full width of the parent up to max-width */
     box-sizing: border-box;
 }
 
