@@ -66,6 +66,7 @@ input[type=number]:focus {
     padding: 9px 27px;
     border: none;
     border-radius: 5px;
+    box-shadow: 0 4px 12px #4C1D95;
 }
 
 #convert-btn:hover {
@@ -92,6 +93,7 @@ input[type=number]:focus {
     max-width: 90%;
     width: 100%; /* takes the full width of the parent up to max-width */
     box-sizing: border-box;
+    box-shadow: 0 4px 12px #111827;
 }
 
 h2 {
